@@ -1,0 +1,7 @@
+services:
+    oray:
+        image: oray:test
+        privileged: true
+        mac_address: 00:0c:29:59:66:77
+        restart: unless-stopped
+        container_name: oraytest
